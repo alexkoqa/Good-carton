@@ -1,0 +1,49 @@
+fixed
+	min-width: 100%
+	background-color: #373737
+	position: fixed
+	z-index: 10
+	top: 0
+	border-bottom: 2px solid white
+
+
+.container-menu
+	height: 50px
+	background-color: #373737
+	display: flex
+	justify-content: center
+	font-family: "Roboto-Regular"
+	align-items: center
+
+	&__items
+		border-right: 1px solid white
+		padding-top: 5px
+		padding-bottom: 5px
+		&:last-child
+			border-right: 0
+			&:hover
+				border-right: 0
+
+		&:hover
+			border-right: 1px dotted #373737
+			border-left: 1px solid #373737
+			margin-left: -1px
+
+			
+a
+	color: #fff
+	text-decoration: none
+	font-size: 14px
+	padding-right: 10px
+	padding-left: 10px
+	text-transform: uppercase
+	padding-top: 15px
+	padding-bottom: 15px
+	text-align: center
+	font-weight: 700
+	
+	&:hover
+		background-color: white
+		color: #373737
+		border-bottom: 2px solid #FF9D00
+		transition: 0.5s
